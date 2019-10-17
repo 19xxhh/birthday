@@ -1,0 +1,31 @@
+#BirthList{
+	font-size:30px;
+	text-align:center;
+	padding:30px;
+}
+
+#BirthList .top{
+	background: url("images/back2.png");
+}
+#BirthList .date{
+	display: flex;
+	text-align: left;
+	margin-top:20px;
+	border-bottom:1px solid #ccc;
+	padding-bottom:10px;
+	background-color: #f5f5f5;
+}
+#BirthList .newDate{
+	border-bottom: none;
+	margin-top:0;
+}
+#BirthList .wish{
+	display:flex;
+	justify-content: space-between;
+}
+#BirthList  .count{
+	color:#f00;
+	border:1px solid #f00;
+	border-radius: 50%;
+	font-size:20px;
+}

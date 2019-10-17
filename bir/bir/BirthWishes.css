@@ -1,0 +1,23 @@
+#BirthWishes{
+	font-size:36px;
+	text-align:center;
+	padding:30px;
+}
+#BirthWishes .happy{
+	margin-top:30%;
+}
+#BirthWishes .text{
+	text-align:left;
+	padding:80px;
+}
+#BirthWishes .hi{
+	margin-bottom:20px;
+}
+#BirthWishes button{
+	width:40%;height:60px;
+	border-radius: 10px;
+}
+#BirthWishes .bottom{
+	text-align:right;
+	padding-right:80px;
+}

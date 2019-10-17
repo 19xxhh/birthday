@@ -1,0 +1,31 @@
+#Year{
+	font-size:30px;
+	text-align:center;
+	padding:30px;
+	background: url("images/wis6.png") no-repeat;
+}
+#Year .text{
+	margin-top:50%;
+	background-color: #fff;
+	width:80%;height:300px;
+	text-align: left;
+	padding:80px 30px 60px 30px;
+	color:#549cfb;
+	position:relative;
+}
+#Year  .name{
+	font-size:34px;
+}
+
+#Year  .pic :nth-child(1){
+	position:absolute;
+	left:10%;top:40%;
+}
+#Year  .pic :nth-child(2){
+	position:absolute;
+	left:65%;top:45%;
+}
+#Year  .pic :nth-child(3){
+	position:absolute;
+	left:10%;top:99%;
+}

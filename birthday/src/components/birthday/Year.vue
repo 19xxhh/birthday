@@ -1,20 +1,58 @@
 <template>
-    <div id="year">
-        <div>
-            <img src="../../assets/images/head.png" alt="">
-            <img src="../../assets/images/wis8.png" alt="">
-            <span>亲爱的XX（XXXX）：</span>
-            <span>又到了这个特别的日子，这时候我们相逢X周年的纪念日。很高兴能与你为伴，为着同一个目标和梦想共同拼搏。跟鞋你的辛勤付出，萌新的一程愿我们继续风雨同舟。</span>
-            <span>中原地产</span>
-        </div>
-        <mt-button size="middle">更多祝福</mt-button>
+  <div id="Year">
+    <div class="text">
+      <div>
+        <span>亲爱的</span>
+        <span class="name">XX(SCXXXX):</span>
+      </div>
+      <div>
+        <span>&nbsp;&nbsp;又到了这个特别的日子，这时候我们相逢X周年的纪念日。很高兴能与你为伴，为着同一个目标和梦想共同拼搏。感谢你的辛勤付出，新的一程愿我们继续风雨同舟。</span>
+      </div>
+      <div>中原地产</div>
     </div>
+    <button>更多祝福</button>
+    <div class="pic">
+      <img src="../../assets/images/head.png">
+      <img src="../../assets/images/wis8.png">
+      <img src="../../assets/images/wis7.png">
+    </div>
+  </div>
 </template>
 <script>
 export default {
-    
+  
 }
 </script>
-<style lang="less" scoped>
+<style scoped>
+#Year{
+	font-size:30px;
+	text-align:center;
+	padding:30px;
+	background: url("../../assets/images/wis6.png") no-repeat;
+}
+#Year .text{
+	margin-top:50%;
+	background-color: #fff;
+	width:80%;height:300px;
+	text-align: left;
+	padding:80px 30px 60px 30px;
+	color:#549cfb;
+	position:relative;
+}
+#Year  .name{
+	font-size:34px;
+}
 
+#Year  .pic :nth-child(1){
+	position:absolute;
+	left:10%;top:40%;
+}
+#Year  .pic :nth-child(2){
+	position:absolute;
+	left:65%;top:45%;
+}
+#Year  .pic :nth-child(3){
+	position:absolute;
+	left:10%;top:99%;
+}
 </style>

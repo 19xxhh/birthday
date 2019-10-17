@@ -1,0 +1,30 @@
+
+#Member{
+	font-size:36px;
+	text-align:center;
+	padding:30px;
+}
+#Member  .wishes{
+	display:flex;
+	text-align: left;
+}
+
+#Member .wishes .wishesText{
+	color:#ccc;
+	font-size:26px;
+}
+#Member .wisheswords{
+	margin-top:50px;
+	padding-right:100px;
+}
+#Member .cake{
+	position:relative;
+}
+#Member .cake span{
+	position:absolute;
+	left:18%;top:20%;
+}
+#Member .wishes .more{
+	margin-top:50px;
+	justify-content: flex-end;
+}

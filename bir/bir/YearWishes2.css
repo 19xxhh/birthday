@@ -1,0 +1,69 @@
+
+#YearWishes2{
+	font-size:36px;
+	text-align:center;
+	padding:30px;
+}
+#YearWishes2 .top{
+	background:url("images/back.png") no-repeat;
+	padding:30px;
+	position:relative;
+}
+#YearWishes2 .top .crown{
+	position:absolute;
+	left:35%;top:10%;
+}
+#YearWishes2 .middle{
+	text-align:center;
+	padding-bottom:80px;
+}
+#YearWishes2 .present{
+	margin-top:30px;
+}
+#YearWishes2 .inputText{
+	width:80%;height:200px;
+	border:1px solid #ccc;
+	text-align: left;
+	margin-left:90px;
+}
+#YearWishes2  .change{
+	font-size:20px;
+	color:#ccc;
+	margin:120px 0 0 10px;
+}
+#YearWishes2  .count{
+	flex-direction: row-reverse;
+}
+#YearWishes2 .yuy{
+	margin-top:20px;
+	position:relative;
+}
+#YearWishes2  .del{
+	position:absolute;
+	left:85%;top:-10px;
+}
+#YearWishes2  .back1{
+	margin-top:20px;
+}
+#YearWishes2 .btn button{
+	width:80%;height:60px;
+}
+#YearWishes2  .wishes{
+	display:flex;
+	text-align: left;
+}
+
+#YearWishes2 .wishes .wishesText{
+	color:#ccc;
+	font-size:26px;
+}
+#YearWishes2 .wisheswords{
+	margin-top:20px;
+}
+#YearWishes2 .cake{
+	position:relative;
+}
+#YearWishes2 .cake span{
+	position:absolute;
+	left:18%;top:20%;
+}

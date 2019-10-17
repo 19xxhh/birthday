@@ -1,0 +1,13 @@
+#BirthEmail{
+	font-size:36px;
+	text-align:center;
+	padding:30px;
+}
+#BirthEmail .wishesText{
+	text-align: left;
+}
+#BirthEmail  .more{
+	width:100px;height:100px;
+	border-radius: 50%;
+	background-color:#e7e7e7;
+}

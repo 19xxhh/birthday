@@ -1,0 +1,42 @@
+
+/*公共样式*/
+#YearWishes{
+	font-size:36px;
+	text-align:center;
+	padding:30px;
+}
+#YearWishes .moddle{
+	border:15px solid pink;
+	padding:40px;
+}
+#YearWishes .text{
+	text-align:left;
+	padding:80px;
+}
+#YearWishes .hi{
+	margin-bottom:20px;
+}
+#YearWishes button{
+	width:40%;height:80px;
+	border-radius: 10px;
+	margin-top:80px;
+	font-size:36px;
+}
+
+#YearWishes .bottom{
+	text-align:right;
+	padding-right:80px;
+}
+
+/*私有样式*/
+#YearWishes .wishes{
+	position:relative;
+}
+#YearWishes .wishes span{
+	position:absolute;
+	left:25%;top:40%;
+}
+#YearWishes .wishes img{
+	position:absolute;
+	left:80px;top:0px;
+}

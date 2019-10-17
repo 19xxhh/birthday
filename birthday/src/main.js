@@ -3,16 +3,16 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import axios from 'axios'
-import MintUI from "mint-ui"
+import Mint from "mint-ui"
 
-import "mint-ui/lib/style.css"
-Vue.use(MintUI)
+// import "mint-ui/lib/style.css"
+Vue.use(Mint)
 
 Vue.prototype.axios=axios
 
 Vue.config.productionTip = false
-import './lib/mui/css/mui.css'
-import './lib/mui/css/icons-extra.css';
+// import './lib/mui/css/mui.css'
+// import './lib/mui/css/icons-extra.css';
 
 new Vue({
   router,

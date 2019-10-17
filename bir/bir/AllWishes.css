@@ -1,0 +1,28 @@
+
+#AllWishes{
+	font-size:36px;
+	text-align:center;
+	padding:30px;
+}
+#AllWishes  .wishes{
+	display:flex;
+	text-align: left;
+}
+
+#AllWishes .wishes .wishesText{
+	color:#ccc;
+	font-size:26px;
+}
+#AllWishes .wisheswords{
+	margin-top:20px;
+}
+#AllWishes .cake{
+	position:relative;
+}
+#AllWishes .cake span{
+	position:absolute;
+	left:18%;top:20%;
+}
+#AllWishes .wishes .more{
+	margin-top:30px;
+}
