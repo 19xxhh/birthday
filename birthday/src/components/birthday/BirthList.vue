@@ -1,7 +1,7 @@
 <template>
   <div id="BirthList">
     <div class="top">
-      <img src="../../assets/images/head.png">
+      <img src="../../assets/images/butt-my.png">
       <div>XX</div>
       <div>XXXX组</div>
     </div>
@@ -9,7 +9,7 @@
       <div>
         <img src="../../assets/images/my-icon1.png">
       </div>
-      <div>
+      <div class="wishText">
         <div>XX月XX日</div>
         <div>距离你下一次生日还有364天</div>
       </div>
@@ -18,10 +18,10 @@
       <div>
         <img src="../../assets/images/my-icon.png">
       </div>
-      <div>
+      <div  class="wishText">
         <span>XX年XX月XX日</span>
-        <span>5周年</span>
-        <div>距离你下一次入职周年还有364天</div>
+        <span class="yearDate">5周年</span>
+        <div class="text">距离你下一次入职周年还有364天</div>
       </div>
     </div>
     <div class="wish date">
@@ -47,13 +47,16 @@ export default {
 </script>
 <style scoped>
 #BirthList{
-	font-size:30px;
+  font-size:20px;
 	text-align:center;
-	padding:30px;
+  padding:10px;
 }
 
 #BirthList .top{
-	background: url("../../assets/images/back2.png");
+  background: url("../../assets/images/back2.png") repeat;
+  background-size: cover;
+  padding:30px;
+  color:#fff;
 }
 #BirthList .date{
 	display: flex;
@@ -65,7 +68,16 @@ export default {
 }
 #BirthList .newDate{
 	border-bottom: none;
-	margin-top:0;
+	margin-top:15px;
+}
+#BirthList .wishText :nth-child(2){
+  font-size: 16px;
+}
+#BirthList .wishText {
+  margin-left:10px;
+}
+#BirthList .wishText .text{
+  font-size: 16px;
 }
 #BirthList .wish{
 	display:flex;

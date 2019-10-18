@@ -3,16 +3,21 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import axios from 'axios'
-import Mint from "mint-ui"
 
-// import "mint-ui/lib/style.css"
-Vue.use(Mint)
+// 引入第三方的组件库mintui
+import MintUI from "mint-ui"
+import "mint-ui/lib/style.css"
+// 3将mint-ui注册到vue实例中
+Vue.use(MintUI)
+//4 将字体图标引入到当前项目中
+// import "./font/iconfont.css"
+
 
 Vue.prototype.axios=axios
 
 Vue.config.productionTip = false
-// import './lib/mui/css/mui.css'
-// import './lib/mui/css/icons-extra.css';
+
+import './components/birthday/css/all.css' //加载全局样式
 
 new Vue({
   router,

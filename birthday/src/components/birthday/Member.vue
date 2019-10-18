@@ -2,7 +2,7 @@
   <div id="Member">
     <div class="wishes">
       <div>
-        <img src="../../assets/images/head.png">
+        <img src="../../assets/images/butt-my1.png">
       </div>
       <div class="wisheswords">
         <div>
@@ -28,9 +28,9 @@ export default {
 </script>
 <style scoped>
   #Member{
-	font-size:36px;
+	font-size:20px;
 	text-align:center;
-	padding:30px;
+	padding:10px;
 }
 #Member  .wishes{
 	display:flex;
@@ -40,10 +40,10 @@ export default {
 
 #Member .wishes .wishesText{
 	color:#ccc;
-	font-size:26px;
+	font-size:18px;
 }
 #Member .wisheswords{
-	margin-top:50px;
+	/* margin-top:15px; */
 	padding-right:100px;
 }
 #Member .cake{
@@ -54,7 +54,7 @@ export default {
 	left:18%;top:20%;
 }
 #Member .wishes .more{
-	margin-top:50px;
+	margin-top:-5px;
 	justify-content: flex-end;
 }
 </style>

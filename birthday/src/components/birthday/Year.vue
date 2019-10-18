@@ -10,7 +10,7 @@
       </div>
       <div>中原地产</div>
     </div>
-    <button>更多祝福</button>
+    <mt-button size="large" type='primary'>更多祝福</mt-button>
     <div class="pic">
       <img src="../../assets/images/head.png">
       <img src="../../assets/images/wis8.png">
@@ -19,6 +19,7 @@
   </div>
 </template>
 <script>
+import {Button} from 'mint-ui'
 export default {
   
 }
@@ -37,22 +38,24 @@ export default {
 	text-align: left;
 	padding:80px 30px 60px 30px;
 	color:#549cfb;
-	position:relative;
 }
 #Year  .name{
 	font-size:34px;
 }
 
+#Year .pic{
+  position:relative;
+}
 #Year  .pic :nth-child(1){
 	position:absolute;
-	left:10%;top:40%;
+	left:8%;top:-580px;
 }
 #Year  .pic :nth-child(2){
 	position:absolute;
-	left:65%;top:45%;
+	left:65%;top:-550px;
 }
 #Year  .pic :nth-child(3){
 	position:absolute;
-	left:10%;top:99%;
+	left:10%;top:-150px;
 }
 </style>

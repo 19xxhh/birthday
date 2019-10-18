@@ -1,8 +1,8 @@
 <template>
-  <div id="AllWishes">
+  <div id="AllWishes" >
     <div class="wishes">
       <div>
-        <img src="../../assets/images/head.png">
+        <img src="../../assets/images/butt-my1.png">
       </div>
       <div class="wisheswords">
         <div>
@@ -33,9 +33,9 @@ export default {
 </script>
 <style scoped>
 #AllWishes{
-	font-size:36px;
+  font-size:20px;
 	text-align:center;
-	padding:30px;
+	padding:10px;
 }
 #AllWishes  .wishes{
 	display:flex;
@@ -44,17 +44,15 @@ export default {
 
 #AllWishes .wishes .wishesText{
 	color:#ccc;
-	font-size:26px;
+	font-size:18px;
 }
-#AllWishes .wisheswords{
-	margin-top:20px;
-}
+
 #AllWishes .cake{
 	position:relative;
 }
 #AllWishes .cake span{
 	position:absolute;
-	left:18%;top:20%;
+	left:18%;top:40%;
 }
 #AllWishes .wishes .more{
 	margin-top:30px;
