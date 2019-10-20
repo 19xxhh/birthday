@@ -1,8 +1,13 @@
 <template>
   <div id="YearWishes2">
     <div class="top">
-      <img src="../../assets/images/head.png">
-      <img class="crown" src="../../assets/images/crown.png">
+      <div   class="head">
+        <img src="../../assets/images/head.png">
+        <img class="crown" src="../../assets/images/crown.png">
+      </div>
+      <!-- <div>
+        <img class="crown" src="../../assets/images/crown.png">
+      </div> -->
       <div class="middle">
         <div>XXXXXX组</div>
         <div>2019-9-9</div>
@@ -25,8 +30,9 @@
         <span class="count">17/140</span>
       </div>
     </div>
-    <div class="yuy">
-      <img src="../../assets/images/yuy.png">
+    <div class="no-yuy">
+      <div class="yuy"></div>
+      <!-- <img src="../../assets/images/yuy.png"> -->
       <img class="del" src="../../assets/images/del.png">
     </div>
     <img class="back1" src="../../assets/images/back1.png">
@@ -36,7 +42,7 @@
     <img src="../../assets/images/title1.png">
     <div class="wishes">
       <div>
-        <img src="../../assets/images/head.png">
+        <img src="../../assets/images/butt-my1.png">
       </div>
       <div class="wisheswords">
         <div>
@@ -48,7 +54,7 @@
           <span>12:12</span>
         </div>
         <div>祝：事业蒸蒸日上</div>
-        <img class="yuy" src="../../assets/images/yuy.png">
+        <div class="yuy"></div>
         <div class="cake">
           <img src="../../assets/images/wis3.png">
           <span>发财鲤</span>
@@ -65,18 +71,26 @@ export default {
 <style scoped>
 
 #YearWishes2{
-	font-size:36px;
+	font-size:20px;
 	text-align:center;
-	padding:30px;
+	padding:10px;
 }
 #YearWishes2 .top{
 	background:url("../../assets/images/back.png") no-repeat;
-	padding:30px;
-	position:relative;
+	padding-top:30px;
+	/* position:relative; */
+  color:#fff;
+}
+.head{
+  position:relative;
+  /* width:100%;height:20px; */
+  width:200px;
+  margin:0 auto;
 }
 #YearWishes2 .top .crown{
 	position:absolute;
-	left:35%;top:10%;
+	left:5%;
+  z-index:1;
 }
 #YearWishes2 .middle{
 	text-align:center;
@@ -92,7 +106,7 @@ export default {
 	margin-left:90px;
 }
 #YearWishes2  .change{
-	font-size:20px;
+	font-size:14px;
 	color:#ccc;
 	margin:120px 0 0 10px;
 }
@@ -100,8 +114,8 @@ export default {
 	flex-direction: row-reverse;
 }
 #YearWishes2 .yuy{
-	margin-top:20px;
-	position:relative;
+  background:url("../../assets/images/yuy.png") no-repeat;
+  background-size:contain;
 }
 #YearWishes2  .del{
 	position:absolute;
@@ -120,7 +134,7 @@ export default {
 
 #YearWishes2 .wishes .wishesText{
 	color:#ccc;
-	font-size:26px;
+	font-size:14px;
 }
 #YearWishes2 .wisheswords{
 	margin-top:20px;

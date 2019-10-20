@@ -3,8 +3,9 @@
       <div class="text">
         <div class="hi">Hi,XX:</div>
         <div>过去一年和你共事的过程很愉快，也感谢你的帮助。愿你像一艘稳稳行驶的三角帆船，勇敢探索前方更广阔的海洋！</div>
-      </div>			
-      <img src="../../assets/images/yuy.png">
+      </div>
+			<div class="yuy"></div>			
+      <!-- <img src="../../assets/images/yuy.png"> -->
       <div class="bottom">
         <div>XXXXXX组</div>
         <div>2019-9-9</div>
@@ -20,9 +21,9 @@ export default {
 </script>
 <style scoped>
 #BirthWishes3{
-	font-size:36px;
+  font-size:20px;
 	text-align:center;
-	padding:30px;
+  padding:10px;
 }
 #BirthWishes3 .moddle{
 	border:15px solid pink;
@@ -30,7 +31,7 @@ export default {
 }
 #BirthWishes3 .text{
 	text-align:left;
-	padding:80px;
+	padding:30px;
 	margin-top:-30px;
 }
 #BirthWishes3 .hi{
@@ -50,11 +51,16 @@ export default {
 	width:40%;height:80px;
 	border-radius: 10px;
 	margin-top:80px;
-	font-size:36px;
+	font-size:24px;
 }
 #BirthWishes3 .bottom{
 	text-align:right;
-	padding-right:80px;
+	padding-right:30px;
+}
+.yuy{
+	width:100%;height:100px;
+	background:url("../../assets/images/yuy.png") no-repeat;
+	background-size:contain;
 }
 
 </style>

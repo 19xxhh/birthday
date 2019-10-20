@@ -12,7 +12,7 @@
     </div>
     <mt-button size="large" type='primary'>更多祝福</mt-button>
     <div class="pic">
-      <img src="../../assets/images/head.png">
+      <img src="../../assets/images/butt-my1.png">
       <img src="../../assets/images/wis8.png">
       <img src="../../assets/images/wis7.png">
     </div>
@@ -26,10 +26,11 @@ export default {
 </script>
 <style scoped>
 #Year{
-	font-size:30px;
+	font-size:20px;
 	text-align:center;
-	padding:30px;
+	padding:10px;
 	background: url("../../assets/images/wis6.png") no-repeat;
+  background-size:contain;
 }
 #Year .text{
 	margin-top:50%;
@@ -40,7 +41,7 @@ export default {
 	color:#549cfb;
 }
 #Year  .name{
-	font-size:34px;
+	font-size:26px;
 }
 
 #Year .pic{
@@ -48,7 +49,7 @@ export default {
 }
 #Year  .pic :nth-child(1){
 	position:absolute;
-	left:8%;top:-580px;
+	left:8%;top:-500px;
 }
 #Year  .pic :nth-child(2){
 	position:absolute;
