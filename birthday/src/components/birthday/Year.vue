@@ -26,7 +26,7 @@ export default {
 </script>
 <style scoped>
 #Year{
-	font-size:20px;
+  font-size:18px;
 	text-align:center;
 	padding:10px;
 	background: url("../../assets/images/wis6.png") no-repeat;

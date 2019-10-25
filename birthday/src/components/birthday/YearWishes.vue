@@ -1,24 +1,67 @@
 <template>
-  <div id="YearWishes">
-    <div class="top"></div>
-    <!-- <img src="../../assets/images/wis.png"> -->
-      <div class="text">
-        <div class="hi">Hi,XX:</div>
-        <div>过去一年和你共事的过程很愉快，也感谢你的帮助。愿你像一艘稳稳行驶的三角帆船，勇敢探索前方更广阔的海洋！</div>
-      </div>	
-      <div class="yuy">	
-        <!-- <img src="../../assets/images/yuy.png"> -->
+  <div id="YearWishes2">
+    <div class="top">
+      <div   class="head">
+        <img src="../../assets/images/head.png">
+        <img class="crown" src="../../assets/images/crown.png">
       </div>
-      <div class="bottom">
+      <!-- <div>
+        <img class="crown" src="../../assets/images/crown.png">
+      </div> -->
+      <div class="middle">
         <div>XXXXXX组</div>
         <div>2019-9-9</div>
+        <div>——XXXX年XX月XX日入职——</div>
+        <div>今天是Ta的入职纪念日，送上祝福！</div>
       </div>
-      <div class="wishes">
-        <img src="../../assets/images/wis1.png">
-        <span>福袋</span>
+    </div>
+    <img src="../../assets/images/title.png">
+    <div class="present">
+      <img src="../../assets/images/per4.png">
+      <img src="../../assets/images/per4.png">
+      <img src="../../assets/images/per4.png">
+      <img src="../../assets/images/per4.png">
+    </div>
+    <!-- <div class="inputText">
+      <input class="textWord" type="text" placeholder="系统随机给一段祝福文字，自己可编辑" maxlength="140">
+      <div class="change">
+        <img src="../../assets/images/fic4.png">
+        <span>换一条</span>
+        <span class="count">17/140</span>
       </div>
-    <button>更多祝福</button>
-    <button>回复Ta</button>
+    </div> -->
+    <textarea name="" id="" cols="30" rows="10" maxlength="140" placeholder="系统随机给一段祝福文字，自己可编辑"></textarea>
+    <div class="no-yuy">
+      <div class="yuy"></div>
+      <!-- <img src="../../assets/images/yuy.png"> -->
+      <img class="del" src="../../assets/images/del.png">
+    </div>
+    <img class="back1" src="../../assets/images/back1.png">
+    <div class="bth">
+      <mt-button type="primary" size="large">发送祝福</mt-button>
+    </div>
+    <img src="../../assets/images/title1.png">
+    <div class="wishes">
+      <div>
+        <img src="../../assets/images/butt-my1.png">
+      </div>
+      <div class="wisheswords">
+        <div>
+          <span>XXX</span>
+          <span  class="wishesText">XXXXX组</span>
+        </div>
+        <div  class="wishesText">
+          <span>2019-9-9</span>
+          <span>12:12</span>
+        </div>
+        <div>祝：事业蒸蒸日上</div>
+        <div class="yuy listen"></div>
+        <div class="cake">
+          <img src="../../assets/images/wis3.png">
+          <span>发财鲤</span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -28,57 +71,101 @@ export default {
 </script>
 <style scoped>
 
-/*公共样式*/
-#YearWishes{
-	font-size:20px;
+#YearWishes2{
+  font-size:18px;
 	text-align:center;
 	padding:10px;
 }
-.top{
-  width:100%;height:150px;
-  background:url("../../assets/images/wis.png") no-repeat;
-  background-size:contain;
+#YearWishes2 .top{
+	background:url("../../assets/images/back.png") no-repeat;
+	padding-top:30px;
+	/* position:relative; */
+  color:#fff;
+  margin-bottom:20px;
 }
-#YearWishes .moddle{
-	border:15px solid pink;
-	padding:40px;
+.head{
+  position:relative;
+  /* width:100%;height:20px; */
+  width:200px;
+  margin:0 auto;
 }
-#YearWishes .text{
-	text-align:left;
-	padding:30px;
-}
-#YearWishes .hi{
-	margin-bottom:20px;
-}
-#YearWishes button{
-	width:40%;height:80px;
-	border-radius: 10px;
-	margin-top:80px;
-	font-size:24px;
-}
-
-#YearWishes .bottom{
-	text-align:right;
-	padding-right:30px;
-}
-
-/*私有样式*/
-#YearWishes .wishes{
-	position:relative;
-}
-#YearWishes .wishes span{
+#YearWishes2 .top .crown{
 	position:absolute;
-	left:45%;top:25px;;
+	left:5%;
+  z-index:1;
 }
-#YearWishes .wishes img{
-	position:absolute;
-	left:10%;;top:0px;
+#YearWishes2 .middle{
+	text-align:center;
+	padding-bottom:80px;
 }
-.yuy{
+#YearWishes2 .present{
+	margin-top:30px;
+}
+#YearWishes2 .inputText{
+	width:80%;height:200px;
+	border:1px solid #ccc;
+	text-align: left;
+	margin-left:90px;
+}
+#YearWishes2  .change{
+	font-size:14px;
+	color:#ccc;
+	margin:120px 0 0 10px;
+}
+#YearWishes2  .count{
+	flex-direction: row-reverse;
+}
+#YearWishes2 .yuy{
   width:100%;height:100px;
   background:url("../../assets/images/yuy.png") no-repeat;
-  background-size: contain;
-  margin-left:30px;
+  background-size:contain;
+  margin: 10px auto;
+}
+.no-yuy{
+  position:relative;
+}
+#YearWishes2  .del{
+	position:absolute;
+	left:95%;top:-10px;
+}
+#YearWishes2  .back1{
+	margin-top:20px;
+}
+#YearWishes2 .btn button{
+	width:80%;height:60px;
+}
+#YearWishes2  .wishes{
+	display:flex;
+	text-align: left;
+  margin-top:20px;
 }
 
+#YearWishes2 .wishes .wishesText{
+	color:#ccc;
+	font-size:14px;
+}
+#YearWishes2 .wisheswords{
+	/* margin-top:20px; */
+  width:100%;
+}
+#YearWishes2 .cake{
+	position:relative;
+  margin-left:-20px;
+}
+#YearWishes2 .cake span{
+	position:absolute;
+	left:35%;top:40%;
+}
+textarea{
+  width:99%;
+  margin: 0 auto ;
+  padding:0;
+}
+#YearWishes2 .bth{
+  /* border-radius:10%; */
+  margin:20px;
+}
+#YearWishes2 .listen{
+  margin-left:-30px;
+}
 </style>

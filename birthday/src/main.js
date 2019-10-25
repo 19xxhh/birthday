@@ -10,6 +10,10 @@ import "mint-ui/lib/style.css"
 // 3将mint-ui注册到vue实例中
 Vue.use(MintUI)
 
+import Vant from 'vant';
+import 'vant/lib/index.css';
+
+Vue.use(Vant);
 
 Vue.prototype.axios=axios
 

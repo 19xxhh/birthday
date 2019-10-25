@@ -3,10 +3,10 @@ import Router from 'vue-router'
 // import Home from './views/Home.vue'
 // import Index from './components/birthday/Index.vue'
 import AllWishes from './components/birthday/AllWishes.vue'
-import BirthEmail from './components/birthday/BirthEmail.vue'
+// import BirthEmail from './components/birthday/BirthEmail.vue'
 import BirthEmail2 from './components/birthday/BirthEmail2.vue'
 import BirthList from './components/birthday/BirthList.vue'
-import BirthWishes from './components/birthday/BirthWishes.vue'
+// import BirthWishes from './components/birthday/BirthWishes.vue'
 import BirthWishes2 from './components/birthday/BirthWishes2.vue'
 import BirthWishes3 from './components/birthday/BirthWishes3.vue'
 import Member from './components/birthday/Member.vue'
@@ -22,10 +22,10 @@ export default new Router({
     // {path: '/',component: Home},
     // {path: 'Index',component: Index},
     {path: '/AllWishes',component: AllWishes},
-    {path: '/BirthEmail',component: BirthEmail},
+    // {path: '/BirthEmail',component: BirthEmail},
     {path: '/BirthEmail2',component: BirthEmail2},
     {path: '/BirthList',component: BirthList},
-    {path: '/BirthWishes',component: BirthWishes},
+    // {path: '/BirthWishes',component: BirthWishes},
     {path: '/BirthWishes2',component: BirthWishes2},
     {path: '/BirthWishes3',component: BirthWishes3},
     {path: '/Member',component: Member},

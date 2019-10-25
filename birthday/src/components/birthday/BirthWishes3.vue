@@ -21,7 +21,7 @@ export default {
 </script>
 <style scoped>
 #BirthWishes3{
-  font-size:20px;
+  font-size:18px;
 	text-align:center;
   padding:10px;
 }

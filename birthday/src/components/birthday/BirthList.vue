@@ -38,16 +38,20 @@
         <img src="../../assets/images/prev.png">
       </div>
     </div>
+    <add></add>
   </div>
 </template>
 <script>
+// 引入组件tab
+import Tab from "./Tab.vue";
 export default {
   
+components:{"add":Tab}
 }
 </script>
 <style scoped>
 #BirthList{
-  font-size:20px;
+  font-size:18px;
 	text-align:center;
   padding:10px;
 }
@@ -57,6 +61,7 @@ export default {
   background-size: cover;
   padding:30px;
   color:#fff;
+  height:100px;
 }
 #BirthList .date{
 	display: flex;

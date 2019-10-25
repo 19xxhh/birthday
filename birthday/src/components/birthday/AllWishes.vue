@@ -14,7 +14,8 @@
           <span>12:12</span>
         </div>
         <div>祝：事业蒸蒸日上</div>
-        <img class="yuy" src="../../assets/images/yuy.png">
+        <div class="yuy"></div>
+        <!-- <img class="yuy" src="../../assets/images/yuy.png"> -->
         <div class="cake">
           <img src="../../assets/images/wis3.png">
           <span>发财鲤</span>
@@ -33,9 +34,12 @@ export default {
 </script>
 <style scoped>
 #AllWishes{
-  font-size:20px;
+  font-size:18px;
 	text-align:center;
 	padding:10px;
+}
+#AllWishes .wisheswords{
+  width:100%;
 }
 #AllWishes  .wishes{
 	display:flex;
@@ -52,9 +56,14 @@ export default {
 }
 #AllWishes .cake span{
 	position:absolute;
-	left:18%;top:40%;
+	left:35%;top:40%;
 }
 #AllWishes .wishes .more{
 	margin-top:30px;
+}
+#AllWishes .yuy{
+  width:100%;height:60px;
+  background:url("../../assets/images/yuy.png") no-repeat;
+  background-size: contain;
 }
 </style>

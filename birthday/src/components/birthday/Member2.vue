@@ -19,17 +19,21 @@
         <div>送祝福 &gt;</div>
       </div>
     </div>
+    <add></add>
   </div>
 </template>
 <script>
+// 引入组件tab
+import Tab from "./Tab.vue";
 export default {
   
+components:{"add":Tab}
 }
 </script>
 <style scoped>
 
 #Member2{
-	font-size:20px;
+  font-size:18px;
 	text-align:center;
 	padding:10px;
 }
